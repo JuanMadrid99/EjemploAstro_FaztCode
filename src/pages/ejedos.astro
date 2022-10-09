@@ -9,7 +9,7 @@ console.log(data)
 
 <MainLayout> 
     <!-- se puede poner plantilla ( lo que sea)en vez de MainLayout -->
-    <h1>ejemplo 2 con layout</h1>
+    <header><h1>ejemplo 2 con layout</h1></header>
     <ul>
     {
         characters.map(character => (
@@ -23,6 +23,13 @@ console.log(data)
     
 </MainLayout>
 <style lang="scss"> //super css es de sass (para hojas de estilo)
+    header{
+        h1{
+            background:blue;
+            color: whitesmoke;
+            padding: 10px;
+        }
+    }
     .image-profile{
         width:100px;
         border-radius: 50%;
