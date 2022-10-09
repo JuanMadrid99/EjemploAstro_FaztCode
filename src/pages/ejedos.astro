@@ -1,0 +1,14 @@
+---
+import { log } from "astro/dist/core/logger/core";
+import MainLayout from "../layouts/MainLayout.astro" //se puede poner plantilla ( lo que sea)en vez de MainLayout
+// import Footer from "../components/Footer.astro";
+const reponse = await fetch('https://rickandmortyapi.com/api/character') //trae los datos desde esa direccion el await es porque es asincrono *(nose)
+const data = await reponse.json()
+console.log(data)
+---
+
+<MainLayout> 
+    <!-- se puede poner plantilla ( lo que sea)en vez de MainLayout -->
+    <h1>ejemplo 2 con layout</h1>
+    
+</MainLayout>

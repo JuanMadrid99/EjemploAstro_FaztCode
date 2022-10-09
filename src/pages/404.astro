@@ -1,10 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/navbar.astro";
 ---
 <!-- Esta pagina se muestra en caso de que el usuario vaya a una ruta inexistente -->
 
 <Layout title = "Error 404">
+    <Navbar/>
 <h1>
     Ruta no existente
 </h1>
+<Footer title="Verifique la direccion web"/>
 </Layout>
+<style>
+h1{
+    color: red;
+    font-size: 7rem;
+}
+</style>
+ 
