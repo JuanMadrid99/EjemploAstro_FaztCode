@@ -12,7 +12,7 @@ console.log(data)
     <header><h1>ejemplo 2 con layout</h1></header>
     <ul>
     {
-        characters.map(character => (
+        characters.map((character: { name: unknown; image: string | null | undefined }) => (
         <li>
             <h1>{character.name}</h1>
             <img src={character.image} class="image-profile"/>
