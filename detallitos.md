@@ -4,4 +4,7 @@ los componentes solo se mandan a llamar dentro de los layouts y se modifican gra
 
 
 
-se puede integrar Sass y taildwing
+se puede integrar Sass y tailwing
+
+
+me quede hasta el minuto 31 porque toca temas de react que no he estudiado 
